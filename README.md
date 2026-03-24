@@ -30,7 +30,7 @@ This is a backend application for an E-Commerce platform built using **Spring Bo
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/ecommerce-backend.git
+git clone https://github.com/kondamahesh1250/Ecommerce-App-Backend.git
 cd ecommerce-backend
 ```
 
