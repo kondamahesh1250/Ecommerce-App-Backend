@@ -50,7 +50,7 @@ public class SecurityConfig {
         return new WebMvcConfigurer() {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:5173","https://ecommerce-app-mu-ochre.vercel.app/")
+                        .allowedOrigins("http://localhost:5173","https://ecommerce-app-nu-puce.vercel.app/")
                         .allowedMethods("*")
                         .allowCredentials(true);
             }
