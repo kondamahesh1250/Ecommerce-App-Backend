@@ -54,7 +54,7 @@ public class OAuth2SuccessHandler implements AuthenticationSuccessHandler {
 
         // Redirect to React with token
         response.sendRedirect(
-                "http://localhost:5173/oauth-success?token=" + token + "&role=" + user.getRole()
+                "https://ecommerce-app-mu-ochre.vercel.app/oauth-success?token=" + token + "&role=" + user.getRole()
         );
     }
 }
